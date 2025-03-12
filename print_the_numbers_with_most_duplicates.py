@@ -8,7 +8,7 @@ while True:
         numbers.append(number)
 # Break the loop if the input is invalid
 # Count each number in the list
-except ValueError:
+    except ValueError:
         break  
 
 if numbers:
@@ -19,3 +19,8 @@ if numbers:
     for num in unique_numbers:
         count = numbers.count(num)
 # Store the most frequent number in the list and print
+        if count > max_count:
+            max_count = count
+            most_frequent = num
+
+    print(most_frequent)
