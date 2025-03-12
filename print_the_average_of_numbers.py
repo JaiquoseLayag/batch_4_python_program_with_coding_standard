@@ -15,3 +15,6 @@ while True:
 total = sum(entered_numbers)
 # Divide by the number of inputs
 # Print the average
+average = total / len(entered_numbers)
+
+print(average)
