@@ -8,5 +8,10 @@ while True:
         entered_numbers.append(num)
 # Break the loop if the input is invalid
 # Get the sum of all inputs
+    except ValueError:
+        print("Invalid input. Exiting.")
+        break
+
+total = sum(entered_numbers)
 # Divide by the number of inputs
 # Print the average
