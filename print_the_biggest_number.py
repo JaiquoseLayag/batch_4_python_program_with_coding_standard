@@ -13,4 +13,4 @@ while True:
         break
 
 if entered_numbers:
-    print("Smallest Number: " + str(max(entered_numbers)))
+    print("Highest Number: " + str(max(entered_numbers)))
