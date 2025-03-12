@@ -1,4 +1,11 @@
 # Use a list and ask the user to input numbeers while in a loop
+entered_numbers = []  
+
+while True:
+    try:
+        numbers = input("Enter a number: ")  
+        num = int(numbers)    
+        entered_numbers.append(num)
 # Break the loop if the input is invalid
 # Get the sum of all inputs
 # Divide by the number of inputs
